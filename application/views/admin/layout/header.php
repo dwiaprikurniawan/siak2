@@ -76,11 +76,11 @@
           >
             <div class="bg-white py-2 collapse-inner rounded">
               <h6 class="collapse-header">Custom Profil</h6>
-              <a class="collapse-item" href="user.html">User</a>
-              <a class="collapse-item" href="visimisi.html">Visi Misi</a>
+              <a class="collapse-item" href="<?= base_url() ?>admin/profil">Visi Misi</a>
+              <a class="collapse-item" href="<?= base_url() ?>admin/profil/sejarah">Sejarah Singkat</a>
               <a class="collapse-item" href="prestasi.html">Prestasi</a>
               <a class="collapse-item" href="forgot-password.html">Struktur</a>
-              <a class="collapse-item" href="forgot-password.html">Akreditas</a>
+              <a class="collapse-item" href="<?= base_url() ?>admin/profil/akreditasi">Akreditasi</a>
             </div>
           </div>
         </li>
