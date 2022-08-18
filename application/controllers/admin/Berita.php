@@ -7,7 +7,15 @@ class Berita extends CI_Controller {
 	{
 		$data = array(	'title' 	=> 'SIAK | Admin',
 						'active'	=> 'Dashboard',
-						'isi'		=> 'admin/dasboard/list');
+						'isi'		=> 'admin/berita/list');
+		$this->load->view('admin/layout/wrapper', $data, FALSE);
+	}
+
+	public function create()
+	{
+		$data = array(	'title' 	=> 'SIAK | Admin',
+						'active'	=> 'Dashboard',
+						'isi'		=> 'admin/berita/create');
 		$this->load->view('admin/layout/wrapper', $data, FALSE);
 	}
 

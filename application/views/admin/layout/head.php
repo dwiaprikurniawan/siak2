@@ -25,6 +25,7 @@
 
     <!-- Custom styles for this template-->
     <link href="<?= base_url() ?>assets/admin/css/sb-admin-2.min.css" rel="stylesheet" />
+    <script src="https://cdn.ckeditor.com/4.19.1/standard/ckeditor.js"></script>
   </head>
 
   <body id="page-top">

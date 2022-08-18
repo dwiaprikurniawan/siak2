@@ -5,7 +5,7 @@
         <!-- Sidebar - Brand -->
         <a
           class="sidebar-brand d-flex align-items-center justify-content-center"
-          href="index.html"
+          href="<?= base_url() ?>admin/dashboard"
         >
           <div class="sidebar-brand-text mx-3">SIAK</div>
         </a>
@@ -28,7 +28,7 @@
         <li class="nav-item">
           <a
             class="nav-link collapsed"
-            href="#"
+            href=""
             data-toggle="collapse"
             data-target="#collapseUtilities"
             aria-expanded="true"
@@ -45,8 +45,8 @@
           >
             <div class="bg-white py-2 collapse-inner rounded">
               <h6 class="collapse-header">Custom Beranda:</h6>
-              <a class="collapse-item" href="jumbotron.html">Jumbotron</a>
-              <a class="collapse-item" href="beritaBaru.html">Berita Baru</a>
+              <a class="collapse-item" href="<?= base_url() ?>admin/slider">Gambar Slider</a>
+              <a class="collapse-item" href="<?= base_url() ?>admin/berita">Berita Baru</a>
               <a class="collapse-item" href="vidiobaru.html">Vidio Baru</a>
             </div>
           </div>
