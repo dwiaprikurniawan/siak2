@@ -5,7 +5,7 @@ class Slider extends CI_Controller {
 
 	public function index()
 	{
-		$data = array(	'title' 	=> 'SIAK | Admin',
+		$data = array(	'title' 	=> 'Slider | Admin',
 						'active'	=> 'Dashboard',
 						'isi'		=> 'admin/slider/list');
 		$this->load->view('admin/layout/wrapper', $data, FALSE);		

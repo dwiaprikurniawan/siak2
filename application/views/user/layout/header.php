@@ -22,15 +22,15 @@
                 <ul class="dropdown">
                   <li><a href="<?= base_url() ?>profil">Visi Misi</a></li>
                   <li><a href="<?= base_url() ?>profil/sejarah">Sejarah Singkat</a></li>
-                  <li class="has-children">
+                  <!-- <li class="has-children">
                     <a href="#">Prestasi</a>
                     <ul class="dropdown">
                       <li><a href="#">DELEGASI AKPOL</a></li>
                       <li><a href="#">TARUNA</a></li>
                       <li><a href="#">SISWA SIPSS</a></li>
                     </ul>
-                  </li>
-                  <li class="has-children">
+                  </li> -->
+                  <!-- <li class="has-children">
                     <a href="#">Struktur</a>
                     <ul class="dropdown">
                       <li><a href="#">GUBERNUR DAN WAKIL GUBERNUR</a></li>
@@ -38,7 +38,7 @@
                       <li><a href="#">DIT BINTARLAT</a></li>
                     </ul>
                   <li><a href="<?= base_url() ?>profil/akreditasi">Akreditasi</a></li>
-                  </li>
+                  </li> -->
 
                 </ul>
               </li>

@@ -105,11 +105,11 @@
           >
             <div class="bg-white py-2 collapse-inner rounded">
               <h6 class="collapse-header">Fasilitas</h6>
-              <a class="collapse-item" href="<?= base_url() ?>admin/gedung">Gedung</a>
-              <a class="collapse-item" href="<?= base_url() ?>admin/ibadah">Ibadah</a>
-              <a class="collapse-item" href="<?= base_url() ?>admin/kantor">Perkantoran</a>
-              <a class="collapse-item" href="<?= base_url() ?>admin/pengajaran">Pengajaran</a>
-              <a class="collapse-item" href="<?= base_url() ?>admin/olahraga">Olahraga</a>
+              <a class="collapse-item" href="<?= base_url() ?>admin/fasilitas/gedung">Gedung</a>
+              <a class="collapse-item" href="<?= base_url() ?>admin/fasilitas/ibadah">Ibadah</a>
+              <a class="collapse-item" href="<?= base_url() ?>admin/fasilitas/kantor">Perkantoran</a>
+              <a class="collapse-item" href="<?= base_url() ?>admin/fasilitas/pengajaran">Pengajaran</a>
+              <a class="collapse-item" href="<?= base_url() ?>admin/fasilitas/olahraga">Olahraga</a>
             </div>
           </div>
         </li>
