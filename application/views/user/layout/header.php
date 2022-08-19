@@ -11,7 +11,7 @@
       <div class="container">
         <div class="menu-bg-wrap">
           <div class="site-navigation">
-            <a href="<?= base_url() ?>" class="logo m-0 float-start">SIAK AKPOL</a>
+            <a href="<?= base_url() ?>" class="logo m-0 float-start"> <img src=""> SIAK AKPOL</a>
 
             <ul
               class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end"

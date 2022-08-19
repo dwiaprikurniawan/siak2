@@ -9,8 +9,9 @@
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
+    
 
-    <title>ADMIN AKPOL</title>
+    <title><?= $title ?> AKPOL</title>
 
     <!-- Custom fonts for this template-->
     <link

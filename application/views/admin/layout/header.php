@@ -7,14 +7,14 @@
           class="sidebar-brand d-flex align-items-center justify-content-center"
           href="<?= base_url() ?>admin/dashboard"
         >
-          <div class="sidebar-brand-text mx-3">SIAK</div>
+          <div class="sidebar-brand-text mx-3"><img src="<?php echo base_url() ?>assets/image/akpol.png" style="height: 50px;">SIAK Akpol</div>
         </a>
 
         <!-- Divider -->
         <hr class="sidebar-divider my-0" />
 
         <!-- Nav Item - Dashboard -->
-        <li class="nav-item active">
+        <li class="nav-item <?php if($active=='dashboard'){echo "active";}  ?>">
           <a class="nav-link" href="index.html">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>DASHBOARD</span></a
@@ -25,7 +25,7 @@
         <hr class="sidebar-divider" />
 
         <!-- Heading -->
-        <li class="nav-item">
+        <li class="nav-item <?php if($active=='beranda'){echo "active";}  ?>">
           <a
             class="nav-link collapsed"
             href=""
@@ -46,7 +46,7 @@
             <div class="bg-white py-2 collapse-inner rounded">
               <h6 class="collapse-header">Custom Beranda:</h6>
               <a class="collapse-item" href="<?= base_url() ?>admin/slider">Gambar Slider</a>
-              <a class="collapse-item" href="<?= base_url() ?>admin/berita">Berita Baru</a>
+              <a class="collapse-item " href="<?= base_url() ?>admin/berita">Berita Baru</a>
               <a class="collapse-item" href="vidiobaru.html">Vidio Baru</a>
             </div>
           </div>
@@ -56,7 +56,7 @@
         <hr class="sidebar-divider" />
 
         <!-- Nav Item - Pages Collapse Menu -->
-        <li class="nav-item">
+        <li class="nav-item <?php if($active=='profil'){echo "active";}  ?>">
           <a
             class="nav-link collapsed"
             href="#"
@@ -76,7 +76,7 @@
           >
             <div class="bg-white py-2 collapse-inner rounded">
               <h6 class="collapse-header">Custom Profil</h6>
-              <a class="collapse-item" href="<?= base_url() ?>admin/profil">Visi Misi</a>
+              <a class="collapse-item <?php if($active=='visi'){echo "active";}  ?>" href="<?= base_url() ?>admin/profil">Visi Misi</a>
               <a class="collapse-item" href="<?= base_url() ?>admin/profil/sejarah">Sejarah Singkat</a>
               <a class="collapse-item" href="prestasi.html">Prestasi</a>
               <a class="collapse-item" href="forgot-password.html">Struktur</a>
