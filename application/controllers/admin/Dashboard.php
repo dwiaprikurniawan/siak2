@@ -11,6 +11,14 @@ class Dashboard extends CI_Controller {
 			$this->load->view('admin/layout/wrapper', $data, FALSE);
 	}
 
+	public function hubungi()
+	{
+			$data = array(	'title' 	=> 'SIAK | Admin',
+							'active'	=> 'hubungi',
+							'isi'		=> 'admin/hubungi/list');
+			$this->load->view('admin/layout/wrapper', $data, FALSE);
+	}
+
 }
 
 /* End of file Dashboard.php */

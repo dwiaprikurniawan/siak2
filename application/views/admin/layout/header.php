@@ -78,14 +78,14 @@
               <h6 class="collapse-header">Custom Profil</h6>
               <a class="collapse-item <?php if($active=='visi'){echo "active";}  ?>" href="<?= base_url() ?>admin/profil">Visi Misi</a>
               <a class="collapse-item" href="<?= base_url() ?>admin/profil/sejarah">Sejarah Singkat</a>
-              <a class="collapse-item" href="prestasi.html">Prestasi</a>
-              <a class="collapse-item" href="forgot-password.html">Struktur</a>
+             <!--  <a class="collapse-item" href="prestasi.html">Prestasi</a>
+              <a class="collapse-item" href="forgot-password.html">Struktur</a> -->
               <a class="collapse-item" href="<?= base_url() ?>admin/profil/akreditasi">Akreditasi</a>
             </div>
           </div>
         </li>
         <!-- Nav Item - Pages Collapse Menu -->
-        <li class="nav-item">
+        <li class="nav-item <?php if($active=='fasilitas'){echo "active";}  ?>">
           <a
             class="nav-link collapsed"
             href="#"
@@ -105,23 +105,24 @@
           >
             <div class="bg-white py-2 collapse-inner rounded">
               <h6 class="collapse-header">Fasilitas</h6>
-              <a class="collapse-item" href="fasilitas.html">Fasilitas</a>
-              <a class="collapse-item" href="daftarFasilitas.html"
-                >Daftar Fasilitas</a
-              >
+              <a class="collapse-item" href="<?= base_url() ?>admin/gedung">Gedung</a>
+              <a class="collapse-item" href="<?= base_url() ?>admin/ibadah">Ibadah</a>
+              <a class="collapse-item" href="<?= base_url() ?>admin/kantor">Perkantoran</a>
+              <a class="collapse-item" href="<?= base_url() ?>admin/pengajaran">Pengajaran</a>
+              <a class="collapse-item" href="<?= base_url() ?>admin/olahraga">Olahraga</a>
             </div>
           </div>
         </li>
         <!-- Nav Item - Tables -->
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" href="berita.html">
             <i class="fas fa-fw fa-table"></i>
             <span>Berita</span></a
           >
-        </li>
+        </li> -->
         <!-- Nav Item - Tables -->
-        <li class="nav-item">
-          <a class="nav-link" href="caontactUs.html">
+        <li class="nav-item <?php if($active=='hubungi'){echo "active";}  ?>">
+          <a class="nav-link" href="<?= base_url() ?>admin/dashboard/hubungi">
             <i class="fas fa-fw fa-table"></i>
             <span>Hubungi Kami</span></a
           >
