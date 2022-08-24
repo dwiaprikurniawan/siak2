@@ -15,4 +15,20 @@ class M_fasilitas extends CI_Model {
 
       return $this->db->get()->result_array();
    }
+
+   function detail($id)
+   {
+      return $this->db->get_where('fasilitas', array('id' => $id))->row_array();
+   }
+
+   function image($id)
+   {
+      return $this->db->get_where('daftar_fasilitas', array('id_fasilitas' => $id))->result_array();
+   }
+
+   function jum($id)
+   {
+      return $this->db->get_where('daftar_fasilitas', array('id_fasilitas' => $id))->num_rows();
+   }
+
 }

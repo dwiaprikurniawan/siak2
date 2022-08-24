@@ -28,42 +28,18 @@
         <div class="section">
       <div class="container">
         <div class="row text-left mb-5">
+          <?php foreach ($vismis as $x): ?>
+            
           <div class="col-12">
-            <h2 class="font-weight-bold heading text-primary mb-4">Visi misi</h2>
+            <h2 class="font-weight-bold heading text-primary mb-4"><?= $x['jenis'] ?></h2>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-12">
             <p class="text-black-50">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-              enim pariatur similique debitis vel nisi qui reprehenderit totam?
-              Quod maiores.
-            </p>
-            <p class="text-black-50">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-              saepe, explicabo nihil. Est, autem error cumque ipsum repellendus
-              veniam sed blanditiis unde ullam maxime veritatis perferendis
-              cupiditate, at non esse!
-            </p>
-            <p class="text-black-50">
-              Enim, nisi labore exercitationem facere cupiditate nobis quod
-              autem veritatis quis minima expedita. Cumque odio illo iusto
-              reiciendis, labore impedit omnis, nihil aut atque, facilis
-              necessitatibus asperiores porro qui nam.
+              <?= $x['isi'] ?>
             </p>
           </div>
-          <div class="col-lg-6">
-            <p class="text-black-50">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-              saepe, explicabo nihil. Est, autem error cumque ipsum repellendus
-              veniam sed blanditiis unde ullam maxime veritatis perferendis
-              cupiditate, at non esse!
-            </p>
-            <p class="text-black-50">
-              Enim, nisi labore exercitationem facere cupiditate nobis quod
-              autem veritatis quis minima expedita. Cumque odio illo iusto
-              reiciendis, labore impedit omnis, nihil aut atque, facilis
-              necessitatibus asperiores porro qui nam.
-            </p>
-          </div>
+          <?php endforeach ?>
+          <hr>
         </div>
       </div>
     </div>

@@ -7,6 +7,11 @@ class M_berita extends CI_Model {
         return $this->db->query('SELECT * FROM berita')->result_array();
    }
 
+   function jum()
+   {
+       return $this->db->get('berita')->num_rows();
+   }
+
    function hapus_data($id){
         $this->db->where('id',$id);
         $query = $this->db->get('berita');
@@ -39,6 +44,11 @@ class M_berita extends CI_Model {
         
         $this->db->where('id',$this->input->post('id',TRUE));
         $this->db->update('berita',$data);
+    }
+
+    function detail($id)
+    {
+        return $this->db->get_where('berita', array('id' => $id))->row_array();
     }
 
 }

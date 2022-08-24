@@ -45,11 +45,9 @@
               <li class="has-children <?php if($active=='fasilitas'){ echo 'active'; } ?>">
                 <a href="properties.html">Fasilitas</a>
                 <ul class="dropdown">
-                  <li><a href="<?= base_url() ?>fasilitas/gedung">FASILITAS GEDUNG</a></li>
-                  <li><a href="<?= base_url() ?>fasilitas/ibadah">FASILITAS IBADAH</a></li>
-                  <li><a href="<?= base_url() ?>fasilitas/perkantoran">FASILITAS PERKANTORAN</a></li>
-                  <li><a href="<?= base_url() ?>fasilitas/pengajaran">FASILITAS PENGAJARAN</a></li>
-                  <li><a href="<?= base_url() ?>fasilitas/olahraga">FASILITAS OLAHRAGA</a></li>       
+                  <?php foreach ($fas as $x ): ?>
+                  <li><a href="<?= base_url() ?>fasilitas/gedung/<?= $x['id']?>">Fasilitas <?= $x['nama_fasilitas'] ?></a></li>  
+                  <?php endforeach ?>
                 </ul>
               </li>
               <li class="<?php if($active=='Login'){ echo 'active'; } ?>"><a href="https://penerimaan.polri.go.id/">Info Pendaftaran</a></li>

@@ -76,7 +76,7 @@
         <div class="row justify-content-between mb-5">
           <div class="col-lg-7 mb-5 mb-lg-0 order-lg-2">
             <div class="img-about dots">
-              <img src="<?= base_url() ?>assets/user/images/hero_bg_3.jpg" alt="Image" class="img-fluid" />
+              <img src="<?= base_url() ?>assets/image/maps.png" alt="Image" class="img-fluid" />
             </div>
           </div>
           <div class="col-lg-4">
@@ -85,10 +85,9 @@
                 <span class="icon-home2"></span>
               </span>
               <div class="feature-text">
-                <h3 class="heading">Quality properties</h3>
+                <h3 class="heading">Alamat</h3>
                 <p class="text-black-50">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nostrum iste.
+                  <?= $hub['alamat'] ?>
                 </p>
               </div>
             </div>
@@ -98,10 +97,9 @@
                 <span class="icon-person"></span>
               </span>
               <div class="feature-text">
-                <h3 class="heading">Top rated agents</h3>
+                <h3 class="heading">Layanan Pengaduan</h3>
                 <p class="text-black-50">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nostrum iste.
+                  <?= $hub['email'] ?>
                 </p>
               </div>
             </div>
@@ -111,10 +109,9 @@
                 <span class="icon-security"></span>
               </span>
               <div class="feature-text">
-                <h3 class="heading">Easy and safe</h3>
+                <h3 class="heading">Contact Person</h3>
                 <p class="text-black-50">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nostrum iste.
+                  <?= $hub['cp'] ?>
                 </p>
               </div>
             </div>

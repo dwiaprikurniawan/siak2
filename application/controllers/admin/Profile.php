@@ -8,7 +8,7 @@ class Profile extends CI_Controller {
         $id_user = $this->session->userdata('id');
         $get = $this->db->query("SELECT * FROM user WHERE id='$id_user'")->row_array();
 
-        if($get["level"] != 1){
+        if($this->session->userdata('level') == NULL){
 		    redirect('admin/auth'); 
 		}
         

@@ -38,7 +38,7 @@ class Auth extends CI_Controller {
                         ];
 
                         $this->session->set_userdata($data);
-                        redirect('admin/user');
+                        redirect('admin/profile');
                     }	
                     else{
                         $this->session->set_flashdata('message','<div id="notifikasi" class="alert alert-warning" role="alert">Login gagal! Password salah.</div>');
