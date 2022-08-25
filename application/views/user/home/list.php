@@ -1,17 +1,9 @@
 <div class="hero">
       <div class="hero-slide">
-        <div
-          class="img overlay"
-          style="background-image: url('<?php echo base_url() ?>assets/image/ak.jpg')"
-        ></div>
-        <div
-          class="img overlay"
-          style="background-image: url('<?php echo base_url() ?>assets/image/aa.jpg')"
-        ></div>
-        <div
-          class="img overlay"
-          style="background-image: url('<?php echo base_url() ?>assets/image/tar.jpg')"
-        ></div>
+        <?php foreach ($slider as $k): ?>
+          
+        <div class="img overlay"style="background-image: url('<?php echo base_url() ?>assets/backend/upload/<?= $k['gambar'] ?>')"></div>
+        <?php endforeach ?>
       </div>
 
       <!-- <div class="container">
@@ -88,9 +80,12 @@
                   <?php 
                     $split   = explode(' ', $data['created_at']);
                     $tglpost = $split[0];
+
+                    $judul = substr($data['judul'],10);
+              
                   ?>
                   <div class="property-item">
-                  <a href="property-single.html" class="img">
+                  <a href="<?= base_url() ?>berita/detail/<?= $data['id'] ?>" class="img">
                     <img src="<?= base_url() ?>/assets/backend/upload/<?= $data['img_cover'] ?>" alt="Image" class="img-fluid" />
                   </a>
 
@@ -100,7 +95,7 @@
                       <span class="d-block mb-2 text-black-50"
                         ><?= date_indo($tglpost) ?></span
                       >
-                      <span class="city d-block mb-3"><?= $data['judul'] ?></span>
+                      <span class="city d-block mb-3"><?= $judul ?></span>
 
                       <!-- <div class="specs d-flex mb-4">
                         <span class="d-block d-flex align-items-center me-3">

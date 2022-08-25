@@ -30,21 +30,13 @@
 
     <div class="section section-properties">
       <div class="container">
-        <div class="row">
-          
-          
-          
-
-          
-          
-          
-
-          
-          
+        <div class="row">  
           <?php foreach ($data as $berita ): ?>
             <?php 
               $split   = explode(' ', $berita['created_at']);
               $tglpost = $split[0];
+
+              $judul = substr($berita['judul'], 0, );
             ?>
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
             <div class="property-item mb-30" >
@@ -55,7 +47,7 @@
               <div class="property-content">
                 
                 <div>
-                  <span class="city d-block mb-3"><?= $berita['judul'] ?></span>
+                  <span class="city d-block mb-3"><?= $judul ?></span>
                   <span class="d-block mb-2 text-black-50"
                     ><?= date_indo($tglpost) ?></span
                   >

@@ -1,129 +1,35 @@
-<div class="container">
-            <h1>DASHBOARD ADMIN</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptates sint quos exercitationem maxime ratione odio doloremque
-              cum qui ullam, eligendi assumenda beatae dolore ut, possimus enim,
-              dolores nemo voluptatem alias?
-            </p>
-            <h3>BERITA</h3>
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="card" style="width: 18rem">
-                  <img
-                    src="<?= base_url() ?>assets/admin/img/298469947_189506843511533_2304941866906564847_n-700x441.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <h6>Tanggal bulan hari jam</h6>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
+<div class="container-fluid">                  <!-- Page Heading -->
+  <div class="d-sm-flex align-items-center justify-content-between mb-4">
+      <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+      <!-- <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+              class="fas fa-download fa-sm text-white-50"></i> Generate Report</a> -->
+  </div>
+
+  <!-- Content Row -->
+  
+
+  <!-- Content Row -->
+
+  
+
+  <!-- Content Row -->
+  <div class="row">
+
+      <div class="col-lg-12 mb-4">
+          <div class="card shadow mb-4">
+              <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">SISTEM INFORMASI AKADEMI KEPOLISIAN</h6>
               </div>
-              <div class="col-lg-4">
-                <div class="card" style="width: 18rem">
-                  <img
-                    src="<?= base_url() ?>assets/admin/img/298469947_189506843511533_2304941866906564847_n-700x441.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <h6>Tanggal bulan hari jam</h6>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
+              <div class="card-body">
+                  <p>SB Admin 2 makes extensive use of Bootstrap 4 utility classes in order to reduce
+                      CSS bloat and poor page performance. Custom CSS classes are used to create
+                      custom components and custom utility classes.</p>
+                  <p class="mb-0">Before working with this theme, you should become familiar with the
+                      Bootstrap framework, especially the utility classes.</p>
               </div>
-              <div class="col-lg-4">
-                <div class="card" style="width: 18rem">
-                  <img
-                    src="<?= base_url() ?>assets/admin/img/298469947_189506843511533_2304941866906564847_n-700x441.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <h6>Tanggal bulan hari jam</h6>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <hr />
-            <h3>Fasilitas</h3>
-            <table class="table table-striped">
-              <thead>
-                <tr>
-                  <th scope="col">id</th>
-                  <th scope="col">gambar</th>
-                  <th scope="col">nama</th>
-                  <th scope="col">id_fasilitas</th>
-                  <th scope="col">Aksi</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>
-                    <img
-                      src="<?= base_url() ?>assets/admin/img/298469947_189506843511533_2304941866906564847_n-700x441.jpg"
-                      alt=""
-                      style="height: 150px"
-                    />
-                  </td>
-                  <td>aaaa</td>
-                  <td>1</td>
-                  <td>
-                    <a href="editFasilitas.html">Edit</a> |
-                    <a href="hapusFasilitas.html">Hapus</a>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>
-                    <img
-                      src="<?= base_url() ?>assets/admin/img/298469947_189506843511533_2304941866906564847_n-700x441.jpg"
-                      alt=""
-                      style="height: 150px"
-                    />
-                  </td>
-                  <td>aaaa</td>
-                  <td>1</td>
-                  <td>
-                    <a href="editFasilitas.html">Edit</a> |
-                    <a href="hapusFasilitas.html">Hapus</a>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>
-                    <img
-                      src="<?= base_url() ?>assets/admin/img/298469947_189506843511533_2304941866906564847_n-700x441.jpg"
-                      alt=""
-                      style="height: 150px"
-                    />
-                  </td>
-                  <td>aaaa</td>
-                  <td>1</td>
-                  <td>
-                    <a href="editFasilitas.html">Edit</a> |
-                    <a href="hapusFasilitas.html">Hapus</a>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
           </div>
+
+      </div>
+  </div>
+
+                </div>

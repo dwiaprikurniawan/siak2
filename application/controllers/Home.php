@@ -7,6 +7,7 @@ class Home extends CI_Controller {
 		parent::__construct();
         
         $this->load->model('M_fasilitas');
+        $this->load->model('M_slider');
         $this->load->model('M_berita');
     }
 
@@ -16,6 +17,7 @@ class Home extends CI_Controller {
 		$data = array(	'title' 	=> 'SIAK AKPOL',
 						'active'	=> 'Beranda',
 						'isi'		=> 'user/home/list',
+						'slider'	=> $this->M_slider->tampilData(),
 						'berita'	=> $this->M_berita->tampilData(),
 						'fas' 		=> $this->M_fasilitas->tampil_fasilitas());
 

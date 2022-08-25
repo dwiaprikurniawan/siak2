@@ -8,7 +8,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <meta name="description" content="" />
     <meta name="author" content="" />
-
+    <link rel="shortcut icon" href="<?php echo base_url() ?>assets/image/images.png" />
     <title><?= $title; ?> </title>
 
     <!-- Custom fonts for this template-->

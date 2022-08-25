@@ -23,10 +23,10 @@ class Dashboard extends CI_Controller {
 		$this->form_validation->set_rules('id','Gambar','required');
 
 		if($this->form_validation->run() == FALSE){
-            $data = array(	'title' 	=> 'Setting Jumbotron Beranda',
-						'active'	=> 'jumbotron',
-						'isi'		=> 'admin/dasboard/setting_jumbotron',
-					 	'data' 		=> $data['data'] = $this->db->query("SELECT * FROM slider")->result_array());
+            $data = array(	'title' 	=> 'Slider | Admin',
+    						'active'	=> 'jumbotron',
+    						'isi'		=> 'admin/dasboard/setting_jumbotron',
+    					 	'data' 		=> $data['data'] = $this->db->query("SELECT * FROM slider")->result_array());
 			$this->load->view('admin/layout/wrapper', $data, FALSE);
         }
         else{
