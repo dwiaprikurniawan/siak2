@@ -29,7 +29,6 @@ class Berita extends CI_Controller {
 						'fas' 		=> $this->M_fasilitas->tampil_fasilitas(),
 						'data'		=> $this->M_berita->detail($id));
 		$this->load->view('user/layout/wrapper', $data, FALSE);
-		
 	}
 
 	 
