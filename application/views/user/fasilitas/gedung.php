@@ -27,7 +27,7 @@
           <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
             <div class="property-item mb-30">
               <a href="property-single.html" class="img">
-                <img src="<?= base_url() ?>assets/backend/upload/<?= $img['nama_gambar'] ?>" alt="Image" class="img-fluid" />
+                <img src="<?= base_url() ?>assets/backend/upload/<?= $img['nama_gambar'] ?>" alt="Image" class="img-fluid"  />
               </a>
 
               <!--  -->

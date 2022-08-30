@@ -22,8 +22,20 @@
             </p>
             <div>
               Distributed by
-              <a href="https://themewagon.com/" target="_blank">themewagon</a>
+              <a href="https://www.instagram.com/sipss.2022/" target="_blank">SIPSS 2022 | BATALYON DHARMA CENDIKIA</a>
             </div>
+            <br>
+            <ul class="list-unstyled social">
+                <li>
+                  <a href="https://www.instagram.com/humas_akpol/" target="_blank"><span class="icon-instagram"></span></a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/Akademi-Kepolisian-42990026073/" target="_blank"><span class="icon-facebook"></span></a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/c/humasakpol"><span class="icon-youtube" target="_blank"></span></a>
+                </li>
+              </ul>
           </div>
         </div>
       </div>

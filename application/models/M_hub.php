@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class M_hub extends CI_Model {
 
    function hubungi_kami(){
-    return $this->db->get_where('hubungi_kami', array('id'  => 4))->row_array();
+    return $this->db->get('hubungi_kami')->row_array();
    }
 
    function tampil_fasilitas2(){
