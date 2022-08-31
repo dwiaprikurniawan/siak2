@@ -8,7 +8,7 @@
 
 </div>
 
-    <div class="section">
+    <div class="section" >
       <div class="container">
         <div class="row mb-5 align-items-center">
           <div class="col-lg-6">
@@ -28,7 +28,7 @@
         </div>
         <div class="row">
           <div class="col-12">
-            <div class="property-slider-wrap">
+            <div class="property-slider-wrap" >
               <div class="property-slider">
 
                 <?php foreach ($berita as $data): ?>
@@ -44,7 +44,7 @@
                     <img src="<?= base_url() ?>/assets/backend/upload/<?= $data['img_cover'] ?>" alt="Image" class="img-fluid" />
                   </a>
 
-                  <div class="property-content">
+                  <div class="property-content" style="height: 200px;">
                     
                     <div>
                       <span class="d-block mb-2 text-black-50"

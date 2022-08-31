@@ -44,7 +44,7 @@
                 <img src="<?= base_url() ?>/assets/backend/upload/<?= $berita['img_cover'] ?>" alt="Image" class="img-fluid" />
               </a>
 
-              <div class="property-content">
+              <div class="property-content" style="height: 250px;">
                 
                 <div>
                   <span class="city d-block mb-3"><?= $judul ?></span>
