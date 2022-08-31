@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 30 Agu 2022 pada 04.48
+-- Waktu pembuatan: 31 Agu 2022 pada 03.23
 -- Versi server: 10.4.24-MariaDB
 -- Versi PHP: 7.4.29
 
@@ -173,8 +173,8 @@ CREATE TABLE `profil` (
 --
 
 INSERT INTO `profil` (`id`, `isi`, `jenis`) VALUES
-(11, '<p>yyy</p>\r\n', 'visi'),
-(12, '<p>yyyy</p>\r\n', 'misi');
+(13, '<p>Akpol menjadi lembaga pendidikan tinggi Polri yang menghasilkan perwira Polri Profesional, Cerdas, Bermoral dan Modern yang berwawasan global dan berstandar internasional</p>\r\n', 'visi'),
+(14, '<ol>\r\n <li>\r\n <p>Menyelenggarakan pendidikan pembentukan perwira Polri melalui kegiatan pengajaran, pelatihan dan pengasuhan secara bertahap dan berkesinambungan pada setiap tingkat pendidikan;</p>\r\n </li>\r\n <li>\r\n <p>menyelenggarakan kegiatan penelitian dalam upaya pengembangan ilmu pengetahuan dan teknologi yang terkait dengan bidang kepolisian;</p>\r\n </li>\r\n <li>\r\n <p>menyelenggarakan kegiatan pengabdian masyarakat yang terkait dengan bidang kepolisian;</p>\r\n </li>\r\n <li>menyelenggarakan tata kelola institusi yang berorientasi kepada pelayanan prima dan berkembang menjadi pusat unggulan (centre of excellent);</li>\r\n <li>mengembangkan kerjasama dan jejaring kerja dengan berbagai lembaga didalam dan luar negeri.</li>\r\n</ol>\r\n', 'misi');
 
 -- --------------------------------------------------------
 
@@ -308,7 +308,7 @@ ALTER TABLE `prestasi_akpol`
 -- AUTO_INCREMENT untuk tabel `profil`
 --
 ALTER TABLE `profil`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT untuk tabel `slider`
