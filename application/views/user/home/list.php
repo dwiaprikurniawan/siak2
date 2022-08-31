@@ -189,7 +189,7 @@
               />
 
               <div class="person-contents">
-                <h2 class="mb-0"><a href="https://akpol.ac.id/anggaran/">PERACAAN ANGGARAN</a></h2>
+                <h2 class="mb-0"><a href="https://akpol.ac.id/anggaran/">PERACANAAN ANGGARAN</a></h2>
                 
               </div>
             </div>
